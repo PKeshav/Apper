@@ -1,0 +1,249 @@
+
+body
+{
+background-image: url("");
+}
+
+.heading
+{
+/*http://stackoverflow.com/questions/20064596/adding-background-image-to-div-using-css*/
+background-image: url("heading2.png");
+height:500px;
+
+
+
+background-size:100% 100%;/*http://stackoverflow.com/questions/15313181/setting-a-divs-background-image-to-fit-its-size*/
+
+background-position:center;/*http://stackoverflow.com/questions/2643305/centering-a-background-image-using-css*/
+
+/*
+For more options:
+http://stackoverflow.com/questions/8200204/fit-background-image-to-div*/
+
+}
+
+.header
+{
+/*http://stackoverflow.com/questions/20064596/adding-background-image-to-div-using-css*/
+background-image: url("header1.png");
+height:150px;
+
+
+
+background-size:100% 100%;/*http://stackoverflow.com/questions/15313181/setting-a-divs-background-image-to-fit-its-size*/
+
+
+
+/*
+For more options:
+http://stackoverflow.com/questions/8200204/fit-background-image-to-div*/
+
+}
+
+.footer
+{
+/*http://stackoverflow.com/questions/20064596/adding-background-image-to-div-using-css*/
+
+bottom: 0;
+
+background-image: url("footer3.png");
+height:150px;
+width:100%;
+background-size:100% 100%;/*http://stackoverflow.com/questions/15313181/setting-a-divs-background-image-to-fit-its-size*/
+
+
+/*
+For more options:
+http://stackoverflow.com/questions/8200204/fit-background-image-to-div*/
+
+
+}
+
+.line
+{
+
+float:right;
+margin-top:5px;
+margin-right:5px;
+margin-left:5px;
+
+}
+
+.content
+{
+/*
+margin-left:360px;
+margin-right:360px;
+*/
+/*
+margin-left: 28%;
+margin-right: 28%;
+*/
+/*http://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-of-the-page*/
+width: 40%;
+margin:0 auto;
+
+
+margin-top:36px;
+
+padding-left:25px;
+padding-right:25px;
+padding-top:25px;
+padding-bottom:25px;
+
+font-family: 'Open Sans',sans-serif;
+
+background-color:rgb(255,255,255);
+
+-webkit-border-radius: 50px;
+
+}
+
+.menubar
+{
+
+background-color:#4c4c4c;
+
+height:60px;
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+
+z-index:10;
+}
+
+.button
+{
+
+float:left;/*http://stackoverflow.com/questions/3797338/wrapping-span-tags-inside-a-div*/
+
+
+
+background-image: url("button1.png");
+
+/*height:45px;*/
+height: 74%;
+/*width:180px;*/
+width: 14%;
+
+background-size:100% 100%;/*http://stackoverflow.com/questions/15313181/setting-a-divs-background-image-to-fit-its-size*/
+
+z-index:2;
+
+margin-right:0px;
+
+padding-top:15px;
+
+
+
+text-align:center;
+
+
+
+/*font-size:25px;*/
+font-size: 150%;
+
+color: #3b5998;
+cursor: pointer;
+text-decoration: none;
+
+}
+
+
+.leftcolumn
+{
+-webkit-border-radius: 15px;
+
+background-color:#eaeaea;
+
+background-size:100% 100%;
+
+position:absolute;
+
+/*width:300px;*/
+width: 22%;
+height:550px;
+
+margin-top:25px;
+
+padding-left:25px;
+padding-right:25px;
+padding-top:25px;
+padding-bottom:25px;
+
+font-family: 'Open Sans',sans-serif;
+
+}
+
+.rightcolumn
+{
+-webkit-border-radius: 15px;
+
+background-color:#eaeaea;
+
+background-size:100% 100%;
+
+position:absolute;
+
+/*width:300px;*/
+width: 22%;
+height:550px;
+
+margin-top:25px;
+/*margin-left:920px;*/
+margin-left: 73%;
+padding-left:25px;
+padding-right:25px;
+padding-top:25px;
+padding-bottom:25px;
+
+font-family: 'Open Sans',sans-serif;
+
+}
+
+.searchengine
+{
+
+float:right;
+
+height:30px;
+/*width:348px;*/
+width: 29.7%;
+
+background-size:100% 100%;
+
+}
+
+.textbox
+{
+-webkit-border-radius: 5px;/*copied from facebook*/
+
+height:40px;
+
+}
+
+.textarea
+{
+-webkit-border-radius: 5px;/*copied from facebook*/
+
+}
+
+.cbutton
+{
+-webkit-border-radius: 5px;
+
+
+}
+
+input
+{
+font-size:20px;
+color: #3b5998;
+}
+
+body[background] {
+    background-color:#c1f59d;
+;
+}
